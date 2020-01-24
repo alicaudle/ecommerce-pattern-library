@@ -6,8 +6,8 @@
   --color-neutral-beige: #e2e2e2;
   --color-white: #fff;
 
-  --font-primary: font-family: 'Raleway', sans-serif;
-  --font-secondary: font-family: 'Merriweather', serif;
+  --font-primary: 'Raleway', sans-serif;
+  --font-secondary: 'Merriweather', serif;
 }
 
 html {
