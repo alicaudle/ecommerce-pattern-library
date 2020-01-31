@@ -1,15 +1,23 @@
 :root {
   --color-primary: #838bc5;
-  --color-primary-light: #C2B3FF;
+  --color-primary-light: #c2b3ff;
   --color-secondary: #ba9bc9;
   --color-accent: #65c8d0;
   --color-neutral-beige: #e2e2e2;
   --color-white: #fff;
 
-  --font-primary: 'Raleway', sans-serif;
-  --font-secondary: 'Merriweather', serif;
+  --font-primary: 'Merriweather', serif;
+  --font-secondary: 'Raleway', sans-serif;
 }
 
 html {
+  font-family: var(--font-primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-secondary);
+}
+
+body, a, blockquote  {
   font-family: var(--font-primary);
 }
