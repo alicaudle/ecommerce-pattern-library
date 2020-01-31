@@ -1,6 +1,6 @@
 :root {
-  --color-primary: #5ab1b8;
-  --color-primary-light: #6dd6de;
+  --color-primary: #6dd6de;
+  --color-primary-light: #b0f6ff;
   --color-secondary: ;
   --color-accent: #c2b3ff;
   --color-white: #fff;
@@ -18,6 +18,15 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-secondary);
 }
 
+h1 {
+  font-weight: bold;
+}
+
 body, a, blockquote  {
   font-family: var(--font-primary);
+}
+
+ol, ul, dl {
+  font-family: var(--font-primary);
+  font-weight: 300;
 }
