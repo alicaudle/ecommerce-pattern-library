@@ -6,7 +6,7 @@ patternbot:
   description: A small business that sells crystals.
   font_url: "https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700|Raleway:300,400,600,700&display=swap"
   colors:
-    background: "--color-neutral-beige"
+    background:
     accent: "--color-accent"
     patterns:
       brand.logos: "--color-primary-light"
