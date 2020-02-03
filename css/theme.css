@@ -4,8 +4,8 @@
   --color-secondary: ;
   --color-accent: #c2b3ff;
   --color-white: #fff;
-  --colour-pink: #ba9bc9;
-  --colour-black: #000;
+  --color-pink: #ba9bc9;
+  --color-black: #000;
 
   --font-primary: 'Merriweather', serif;
   --font-secondary: 'Raleway', sans-serif;
@@ -17,14 +17,26 @@ html {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-secondary);
+  color: var(--color-primary);
 }
 
 h1 {
   font-weight: bold;
 }
 
-body, a, blockquote  {
+body, a, blockquote, cite, q  {
   font-family: var(--font-primary);
+}
+
+a, blockquote, cite, q {
+  text-decoration: none;
+  color: var(--color-pink);
+}
+
+mark {
+  background-color: var(--color-pink);
+  color: var(--color-white);
+  padding: .2em;
 }
 
 ol, ul, dl {
