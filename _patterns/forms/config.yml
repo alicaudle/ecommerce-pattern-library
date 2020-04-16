@@ -16,3 +16,8 @@ patterns:
     title: "Dropdown Field"
     description: The dropdown is used to choose their province.
     width: 20em
+
+    phone-number-field:
+      title: "Phone Number Field"
+      description: The phone number is necessary as a back-up for contacting the customer in regards to their purchases being shipped.
+      width: 20em
