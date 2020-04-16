@@ -7,11 +7,6 @@ patterns:
     description: The email is necessary to send electronic proof of their purchase as well as promotions.
     width: 20em
 
-  phone-number-field:
-    title: "Phone Number Field"
-    description: The phone number is a backup for the email. It's another way to contact them if there is a problem.
-    width: 20em
-
   address-field:
     title: "Address Field"
     description: The address is necessary for shipping their purchases.
