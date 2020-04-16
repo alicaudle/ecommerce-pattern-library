@@ -12,8 +12,8 @@ patterns:
     description: The address is necessary for shipping their purchases.
     width: 20em
 
-  dropdown:
-    title: "Dropdown Field"
+  province-field:
+    title: "Province Field"
     description: The dropdown is used to choose their province.
     width: 20em
 
