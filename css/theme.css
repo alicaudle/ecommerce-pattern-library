@@ -1,14 +1,13 @@
 :root {
-  --color-primary: #6dd6de;
-  --color-primary-light: #b0f6ff;
-  --color-secondary: ;
-  --color-accent: #c2b3ff;
-  --color-white: #fff;
-  --color-pink: #ba9bc9;
-  --color-black: #000;
+  --color-primary: #fff;
+  --color-primary-dark: #000;
+  --color-secondary: #a8cf38;
+  --color-accent: #faa61a;
+  --color-dark-green: #05773d;
 
-  --font-primary: 'Merriweather', serif;
-  --font-secondary: 'Raleway', sans-serif;
+
+  --font-primary: 'Zilla Slab', serif;
+  --font-secondary: 'Archivo', sans-serif;
 }
 
 html {
@@ -17,7 +16,7 @@ html {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-secondary);
-  color: var(--color-primary);
+  color: var(--color-primary-dark);
 }
 
 h1 {
@@ -30,12 +29,12 @@ body, a, blockquote, cite, q  {
 
 a, blockquote, cite, q {
   text-decoration: none;
-  color: var(--color-pink);
+  color: var(--color-secondary);
 }
 
 mark {
-  background-color: var(--color-pink);
-  color: var(--color-white);
+  background-color: var(--color-primary);
+  color: var(--color-dark-green);
   padding: .2em;
 }
 

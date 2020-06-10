@@ -2,20 +2,22 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
-  title: "Crystals"
-  description: A small business that sells crystals.
-  font_url: "https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700|Raleway:300,400,600,700&display=swap"
+  title: "juice."
+  description: A small business that sells juice.
+  font_url: "https://fonts.googleapis.com/css2?family=Archivo:wght@400;600&family=Zilla+Slab:ital,wght@0,400;0,600;1,400&display=swap"
+
   colors:
-    background: "--color-white"
-    accent: "--color-accent"
+    background: "--color-primary"
+    accent: "--color-secondary"
     patterns:
-      brand.logos: "--color-primary-light"
+      brand.logos: "--color-primary"
+
   rationales:
     typefaces.primary: |
-      Merriweather was selected because it works well on screens. It will be used for all body copy.
+      Zilla Slab was selected because it works well on screens. It will be used for all body copy.
     typefaces.secondary: |
-      Raleway was selected because it's an elegant sans-serif. It will be used in all headings, buttons, banners, etc.
+      Archivo was selected because it's an elegant sans-serif. It will be used in all headings, buttons, banners, etc.
     colors.primary: |
-      The primary colours represent crystals and all their many colours. They should be used for text and forground.
+      The primary colours are more neutral and should be used for backgrounds.
     colors.secondary: |
-      The secondary colours are more neutral and should be used for backgrounds.
+      The secondary colours represent nature. They should be used for text and forground.
