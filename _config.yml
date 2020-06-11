@@ -10,7 +10,7 @@ patternbot:
     background: "--color-primary"
     accent: "--color-secondary"
     patterns:
-      brand.logos: "--color-primary"
+      brand.logos: "--color-secondary"
 
   rationales:
     typefaces.primary: |

@@ -2,8 +2,8 @@
   --color-primary: #fff;
   --color-primary-dark: #000;
   --color-secondary: #a8cf38;
+  --color-secondary-dark: #05773d;
   --color-accent: #faa61a;
-  --color-dark-green: #05773d;
 
 
   --font-primary: 'Zilla Slab', serif;
@@ -16,7 +16,7 @@ html {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-secondary);
-  color: var(--color-primary-dark);
+  color: var(--color-secondary);
 }
 
 h1 {
@@ -29,16 +29,20 @@ body, a, blockquote, cite, q  {
 
 a, blockquote, cite, q {
   text-decoration: none;
-  color: var(--color-secondary);
+  color: var(--color-accent);
 }
 
 mark {
-  background-color: var(--color-primary);
-  color: var(--color-dark-green);
+  background-color: var(--color-secondary);
+  color: var(--color-primary-dark);
   padding: .2em;
 }
 
 ol, ul, dl {
   font-family: var(--font-primary);
   font-weight: 300;
+}
+
+dt {
+  font-weight: 600;
 }
