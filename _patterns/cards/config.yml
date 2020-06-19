@@ -1,0 +1,17 @@
+title: "Cards"
+description: |
+  Cards should be used in all areas where information is assisted by photograph.
+
+patterns:
+  juice:
+    title: "Juice"
+    description: |
+      All cards in here are to be used on the products page where they can either be immediately added to a cart or can be clicked on for more information.
+  juice-info:
+    title: "Juice Information"
+    description: |
+      All cards in here are to be used to give further detail about the individual juices.
+  shop-now:
+    title: "Shop Now"
+    description: |
+      This is the default call-to-action card meant to be placed on the homepage.
