@@ -1,37 +1,33 @@
 title: "Forms"
 description: |
   Forms are created to allow customers to make accounts. The information captured is for the purpose of charging customers and shipping items to them.
+
 patterns:
   email:
     title: "Email Field"
     description: |
       The email is necessary to send electronic proof of their purchase as well as promotions.
     width: "20em"
-
   info:
     title: "Text Feild"
     description: |
       The first name, last name, address, and postal code are necessary for building their account.
     width: "20em"
-
   province:
     title: "Province Field"
     description: |
       The dropdown is used to choose their province.
     width: "20em"
-
   phone-number:
     title: "Phone Number Field"
     description: |
       The phone number is necessary as a back-up for contacting the customer in regards to their purchases being shipped.
     width: "20em"
-
   payment:
     title: "Radio and Checkbox Feild"
     description: |
       The radio buttons are necessary for deciding their method of payment. The checkbox is necessary for receiving emailed notifications.
     width: "20em"
-
   password:
     title: "Password Feild"
     description: |

@@ -33,3 +33,7 @@
   border-color: var(--color-accent);
   color: var(--color-primary-dark);
 }
+
+a:focus {
+  outline: 3px solid #000;
+}
