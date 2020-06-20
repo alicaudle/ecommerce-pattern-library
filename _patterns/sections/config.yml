@@ -1,0 +1,9 @@
+title: "Sections & Navigation"
+description: |
+  Sections are made to hold information together. Navigation is to help direct you from one piece of information to another.
+
+patterns:
+  about-us:
+    title: "About Us"
+    description: |
+      All text here is meant to be displayed on the homepage, below the shop now call-to-action.
