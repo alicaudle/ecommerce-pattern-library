@@ -6,4 +6,8 @@ patterns:
   about-us:
     title: "About Us"
     description: |
-      All text here is meant to be displayed on the homepage, below the shop now call-to-action.
+      All text here is meant to be displayed on the homepage, below the "shop now" call-to-action.
+  confirmation:
+    title: "Confirmation"
+    description: |
+      The "thank you" text is to be used as a confirmation of a purchase made. The "account confirmation" text is to be used after the account info form has been successfully filled out.
