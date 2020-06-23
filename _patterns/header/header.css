@@ -2,3 +2,7 @@ nav li {
   justify-content: space-between;
   align-items: right;
 }
+
+a:focus {
+  outline: 3px solid #000;
+}

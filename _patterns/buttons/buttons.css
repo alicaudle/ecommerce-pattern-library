@@ -14,7 +14,7 @@
   background-color: transparent;
   border-color: var(--color-primary-dark);
   color: var(--color-primary-dark);
-  padding: 100px;
+  padding: 2rem;
 }
 
 .btn-ghost:hover {
@@ -36,4 +36,22 @@
 
 a:focus {
   outline: 3px solid #000;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .btn-ghost {
+    font-size: 100%;
+    padding: 10%;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .btn-ghost {
+    font-size: 200%;
+    padding: 90%;
+  }
+
 }
