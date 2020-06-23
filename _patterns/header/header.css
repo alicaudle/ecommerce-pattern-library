@@ -1,5 +1,18 @@
+header {
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
 nav li {
   justify-content: space-between;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
 }
 
 a:focus {
