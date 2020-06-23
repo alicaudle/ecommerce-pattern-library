@@ -13,8 +13,24 @@ nav li {
 nav a {
   display: block;
   text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  background-color: var(--color-accent);
+  padding: .2rem .3rem;
+  border-radius: .2rem;
 }
 
 a:focus {
   outline: 3px solid #000;
+}
+
+@media only screen and (min-width: 25em) {
+
+  nav ul {
+    display: block;
+    text-align: center;
+  }
+
 }
