@@ -1,8 +1,0 @@
-nav a {
-  color: var(--color-accent);
-  background-color: none;
-}
-
-nav a:hover {
-  display: transparent;
-}
