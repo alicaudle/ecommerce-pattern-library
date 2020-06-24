@@ -1,13 +1,6 @@
 header {
   text-align: center;
-}
-
-nav ul {
-  list-style-type: none;
-}
-
-nav li {
-  justify-content: space-between;
+  background-color: white;
 }
 
 nav a {
