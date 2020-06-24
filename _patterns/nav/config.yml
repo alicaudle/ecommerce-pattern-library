@@ -7,3 +7,4 @@ patterns:
     title: "Previous Page"
     description: |
       The previous page navigation is only to be used in the **top left** corner of all product information cards, checkout pages, payment method,
+    width: "12em"
