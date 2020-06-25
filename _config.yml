@@ -8,8 +8,6 @@ patternbot:
   layouts:
     default: |
       The default layout should be used for almost every page, it includes the website's primary header & footer.
-    products: |
-      The products layout should be used for the products page.
 
   colors:
     background: "--color-primary"
