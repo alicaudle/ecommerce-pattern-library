@@ -1,0 +1,9 @@
+title: "Banner"
+description: |
+ The banner is to be used as the homepage's call-to-action.
+
+patterns:
+  shop-now:
+    title: "Shop Now"
+    description: |
+      This is the default call-to-action card meant to be placed on the homepage.

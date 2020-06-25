@@ -11,7 +11,3 @@ patterns:
     title: "Juice Information"
     description: |
       All cards in here are to be used to give further detail about the individual juices.
-  shop-now:
-    title: "Shop Now"
-    description: |
-      This is the default call-to-action card meant to be placed on the homepage.
