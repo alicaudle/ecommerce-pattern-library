@@ -11,7 +11,7 @@ nav a {
 
 nav a:hover {
   background-color: var(--color-accent);
-  padding: .2rem .3rem;
+  padding: .1rem .3rem;
   border-radius: .2rem;
 }
 

@@ -5,6 +5,11 @@ patternbot:
   title: "juice."
   description: A small business that sells juice.
   font_url: "https://fonts.googleapis.com/css2?family=Archivo:wght@400;600&family=Zilla+Slab:ital,wght@0,400;0,600;1,400&display=swap"
+  layouts:
+    default: |
+      The default layout should be used for almost every page, it includes the website's primary header & footer.
+    products: |
+      The products layout should be used for the products page.
 
   colors:
     background: "--color-primary"
