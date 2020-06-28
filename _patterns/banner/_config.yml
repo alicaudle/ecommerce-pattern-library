@@ -4,6 +4,14 @@ description: |
 
 patterns:
   banner:
+    feilds:
+      - name: heading
+        type: string
+        example: "Products"
+      - name: text
+        type: string
+        example: "Fresh local juice."
+
     title: "Shop Now"
     description: |
       This is the default call-to-action card meant to be placed on the homepage.
